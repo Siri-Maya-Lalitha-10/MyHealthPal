@@ -1,0 +1,23 @@
+.sidebar {
+  width: 180px; /* Smaller width */
+  background-color: #f4f4f4;
+  padding: 1rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sidebar-link:hover {
+  color: #007bff;
+}
